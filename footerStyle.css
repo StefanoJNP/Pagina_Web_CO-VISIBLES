@@ -15,16 +15,20 @@ footer {
 }
 
 .contacto {
+
 	text-align: right;
+	height: 70px;
 }
 
 .correo {
+	height: 50px;
 	text-align: right;
+	vertical-align: ;
 }
 	
 .contacto p{
 	position: relative;
-	left: -60px;
+	left: -65px;
 }
 .correo a{
 	position: relative;
@@ -33,10 +37,12 @@ footer {
 	
 .miniMenu {
 	text-align:left;
+	margin-right: 43px;
 }	
 
 .miniMenu a {
 	color:white;
+	text-decoration: none;
 	position: relative;
 	left:50px;
 }
@@ -44,8 +50,17 @@ footer {
 .Logo{
 	position: relative;
 	left:50px;
-}	
+}
 
+.iconosCon{
+	height: 17px;
+	float: right;
+	margin-right: 28px;
+}
+
+.sobre{
+	margin-right: 15px;
+}
 
 
 
