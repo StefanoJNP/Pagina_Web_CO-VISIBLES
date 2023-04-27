@@ -1,0 +1,67 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: 012B51;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  color:white;
+}
+
+footer {
+    display: block;
+}
+
+.contacto {
+
+	text-align: right;
+	height: 70px;
+}
+
+.correo {
+	height: 50px;
+	text-align: right;
+	vertical-align: ;
+}
+	
+.contacto p{
+	position: relative;
+	left: -65px;
+}
+.correo a{
+	position: relative;
+	left: -20px;
+}
+	
+.miniMenu {
+	text-align:left;
+	margin-right: 43px;
+}	
+
+.miniMenu a {
+	color:white;
+	text-decoration: none;
+	position: relative;
+	left:50px;
+}
+
+.Logo{
+	position: relative;
+	left:50px;
+}
+
+.iconosCon{
+	height: 17px;
+	float: right;
+	margin-right: 28px;
+}
+
+.sobre{
+	margin-right: 15px;
+}
+
+
+
+
