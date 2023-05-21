@@ -1,0 +1,141 @@
+.contenedor {
+    display: flex;
+    background-color: #00549C;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+.titulo{
+    text-align: center;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+  text-align: justify;
+  color: azure;
+  border: 3px;
+  padding: 15px;
+  
+}
+
+.contenedor2 {
+  overflow: hidden;
+  background-color: #F4721C;
+  justify-content: center;
+}
+
+.separ{
+  align-items: center;
+}
+.subtituloIzq{
+  font-size: 40px;
+  margin-left: 100px;
+}
+.subti{
+  text-align: center;
+  color: azure;
+  font-size: 40px;
+}
+.text-left {
+  float: left;
+  color: azure;
+  padding-left: 200px;
+  white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+
+.text-right {
+  float: right;
+  color: azure;
+  padding-right:200px ;
+  white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.separ2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  background-color: #00549C;
+  color: azure;
+  
+}
+.uno{
+   font-size: 18px;
+   display: flex;
+  justify-content: center;
+  color: azure;
+}
+
+.texto {
+  flex: 2;
+  padding: 150px;
+}
+.tabla {
+  flex: 2;
+  padding-left: 5px;
+}
+.barra-gruesa {
+  height: 8px;
+  width: 5%;
+  border: none;
+  margin-left: 100px;
+}
+
+.tabla-con-bordes {
+  border-collapse: collapse; 
+}
+
+.tabla-con-bordes th, .tabla-con-bordes td {
+  border: 2px solid #FFF; 
+}
+
+table {
+  border-collapse: auto;
+  padding-right:10px ;
+  white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 30px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  justify-content: center;
+  align-content: baseline;
+}
+
+td{
+  background-color: azure;
+  color: black;
+}
+
+h5{
+  color:black;
+  font-size: 22px;
+
+}
+
+h6{
+  color: #F4721C;
+  font-size: 20px;
+}
+
+.p6{
+  font-size: 15px;
+
+}
