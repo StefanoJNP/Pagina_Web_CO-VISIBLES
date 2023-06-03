@@ -57,6 +57,111 @@
       text-overflow: ellipsis;
   
 }
+/*Contenedor Proyectos Sociales*/
+.contenedorPS {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.TituloPS{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+}
+
+.TituloPS h2{
+  font-size: 60px;
+  margin-left: 100px;
+  color: #012B51;
+  text-shadow: 1px 1px 3px rgba(1, 41, 114, 0.5);
+}
+
+.TituloPS hr{
+  height: 8px;
+  width: 100px;
+  border: none;
+  margin-left: 100px;
+  background-color: #012B51;
+}
+
+.TituloPS div{
+  padding-left: 100px;
+}
+
+.TituloPS div p6{
+  font-size: 23px;
+  color:#00549C;
+}
+
+#tablaPS {
+  border-collapse: collapse;
+  margin-left: 580px;
+}
+#tablaPS td, th, tr {
+  border: none;
+}
+
+#tablaPS .imagenPS, .textoPS {
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.2), 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#tablaPS tr {
+  padding: 0;
+  margin: 0;
+}
+
+#tablaPS td {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  height: 290px;
+}
+
+#tablaPS th {
+  padding: 0;
+  text-align: center;
+  line-height: 0;
+  margin: 0;
+}
+#tablaPS.imagenPS img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#tablaPS .textoPS{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+#tablaPS h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 22px;
+  padding-left: 15px;
+  width: 80%;
+  background-color: #00549c;
+  border-radius: 0px 40px 0px 0px;
+}
+
+#tablaPS h6{
+  padding-left: 15px;
+  color: #F4721C;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#tablaPS .p6PS{
+  padding-left: 15px;
+}
+/*Fin contenedor proyectos Sociales*/
 
 .table {
   border-collapse: collapse;
@@ -133,9 +238,4 @@ h5{
 h6{
   color: #F4721C;
   font-size: 20px;
-}
-
-.p6{
-  font-size: 15px;
-
 }
