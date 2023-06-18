@@ -5,6 +5,28 @@
     align-items: center; 
   }
   
+.contenedor_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tabla_central{
+  width: 300px;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+.tabla_central td{
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-collapse: collapse;
+}
+
+
 .titulo{
     text-align: center;
     color: azure;
