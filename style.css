@@ -12,6 +12,13 @@
   height: 100vh;
 }
 
+.tabla_superior{
+  width: 300px;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+
 .tabla_central{
   width: 300px;
   border-collapse: collapse;
@@ -230,6 +237,18 @@
   border: 2px solid #FFF; 
 }
 
+.miniMenu_header{
+	text-align:right;
+	margin-right: 43px;
+}	
+
+.sobre{
+	margin-right: 50px;
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+}
+
+
 table {
   border-collapse: auto;
   padding-right:10px ;
@@ -261,3 +280,4 @@ h6{
   color: #F4721C;
   font-size: 20px;
 }
+

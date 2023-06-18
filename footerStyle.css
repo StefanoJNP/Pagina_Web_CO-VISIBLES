@@ -40,6 +40,11 @@ footer {
 	margin-right: 43px;
 }	
 
+.miniMenu_header{
+	text-align:right;
+	margin-right: 43px;
+}	
+
 .miniMenu a {
 	color:white;
 	text-decoration: none;
